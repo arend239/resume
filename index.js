@@ -3,6 +3,7 @@ var translations = {
         navResume: "Resume",
         navProjects: "Projects",
         toggleLabel: "PT",
+        resumeFile: "resume-en.pdf",
         greeting: "👋 Hi, my name is",
         tagline: "~ Data &amp; Math Enthusiast ~",
         bio: 'I\'m currently studying statistics at <a href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=327" target="_blank">UFRGS</a> with focus on math, algorithms and programming stuff.<br>' +
@@ -14,6 +15,7 @@ var translations = {
         navResume: "Currículo",
         navProjects: "Projetos",
         toggleLabel: "EN",
+        resumeFile: "resume-pt.pdf",
         greeting: "👋 Oi, meu nome é",
         tagline: "~ Entusiasta de Dados &amp; Matemática ~",
         bio: 'Atualmente estudo estatística na <a href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=327" target="_blank">UFRGS</a>, com foco em matemática, algoritmos e programação.<br>' +
@@ -58,6 +60,7 @@ function applyLang(lang) {
         el.innerHTML = dict[el.dataset.i18nHtml];
     });
     document.getElementById('langToggle').textContent = dict.toggleLabel;
+    document.getElementById('resumeLink').href = dict.resumeFile;
     localStorage.setItem('lang', lang);
 }
 
