@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📊</text></svg>">
     <title>home|arend</title>
 </head>
 
@@ -15,28 +16,29 @@
         </div>
         <div id="right_banner">
                 <h2>
-                    <a href="arend_resume.pdf" target="_blank">Resume</a>&nbsp;&nbsp;
-                    <a href="https://github.com/arend239" target="_blank">Projects</a>
+                    <a href="arend_resume.pdf" target="_blank" data-i18n="navResume">Resume</a>&nbsp;&nbsp;
+                    <a href="https://github.com/arend239" target="_blank" data-i18n="navProjects">Projects</a>&nbsp;&nbsp;
+                    <a href="#" id="langToggle" title="Switch language">PT</a>
                 </h2>
         </div>
     </div>
     <div class="container">
         <div>
-            <h3 class="great"> 👋 Hi, my name is</h3>
+            <h3 class="great" data-i18n="greeting">👋 Hi, my name is</h3>
             <h1 class="name"><b>João Arend.</b></h1>
-            <h2>~ Data &amp; Math Enthusiast ~</h2>
+            <h2 data-i18n-html="tagline">~ Data &amp; Math Enthusiast ~</h2>
         </div>
         <div>
-            <p>
+            <p data-i18n-html="bio">
                 I'm currently studying statistics at <a href="http://www.ufrgs.br/ufrgs/ensino/graduacao/cursos/exibeCurso?cod_curso=327" target="_blank">UFRGS</a> with focus on math, algorithms and programming stuff.<br>
                 Python, R, SQL, JuliaLang (and even Excel) are some of my presently my main tools for solving problems.
             </p>
-            <code>print("<b>thanks for the visit!</b>")</code>
+            <code data-i18n-html="codeLine">print("<b>thanks for the visit!</b>")</code>
         </div>
     </div>
     <div class="footer">
         <div id="text_footer">
-            <p>MMXXIV•XI → Don't hesitate to contact me for further information on my profile: &nbsp;&nbsp;
+            <p><span id="footerDate"></span> → <span data-i18n="footerMsg">Don't hesitate to contact me for further information on my profile</span>: &nbsp;&nbsp;
             <b>
                 <a href="mailto:joaov.arend@gmail.com" target="_blank">Email</a> &nbsp;
                 <a href="https://github.com/arend239" target="_blank">GitHub</a> &nbsp;
@@ -46,3 +48,4 @@
     </div>
     <script src="index.js"></script>
 </body>
+</html>
