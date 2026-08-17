@@ -34,6 +34,7 @@ Estudante de Estatística com experiência prática em consolidação, estrutura
 )
 
 - *Ênfase em*: Álgebra Linear, Probabilidade, Visualização de Dados, Machine Learning e Clustering.
+- *Trabalho de Conclusão de Curso (TCC)*: Aplicação de algoritmos de machine learning bayesiano a um sistema de recomendação.
 
 == Experiência Profissional
 
@@ -41,12 +42,12 @@ Estudante de Estatística com experiência prática em consolidação, estrutura
   title: "Analista de Sistema",
   location: "Canoas, RS",
   company: "Maxiforja Componentes Automotivos",
-  dates: dates-helper(start-date: "Abr 2024", end-date: "Presente"),
+  dates: dates-helper(start-date: "Abr 2024", end-date: "Ago 2026"),
 )
 
-- Desenvolvi pipelines de extração, transformação e consolidação de dados (*ETL*) com *Progress e Python* a partir de múltiplas fontes; servindo como base de dashboards no *Power BI* para análise de indicadores corporativos e operacionais;
-- Criei rotinas automatizadas para geração de relatórios avançados diretamente no *Excel*, reduzindo em até 50% o tempo de processamento das análises;
-- Implementei rotinas de validação lógica e saneamento de entradas no ERP, assegurando a consistência e a alta integridade das informações gerenciais reportadas para lideranças;
+- Desenvolvi pipelines de *ETL* (*Progress, Python*) consolidando dados de múltiplas fontes para análise de KPIs corporativos e operacionais;
+- Desenvolvi rotinas de validação de entrada no ERP, reduzindo em ~30% os erros de digitação em relatórios usados pela liderança;
+- Mantive e evolui customizações em Progress ABL no ERP, combinando desenvolvimento prático com o trabalho analítico acima;
 
 #work(
   title: "Desenvolvedor Progress | ERP Totvs Datasul",
@@ -55,18 +56,43 @@ Estudante de Estatística com experiência prática em consolidação, estrutura
   dates: dates-helper(start-date: "Jan 2022", end-date: "Nov 2023"),
 )
 
-- Implementei testes automatizados em rotinas do sistema, focando na identificação de gargalos de qualidade, redução de erros e diminuição do tempo de deploy;
-- Realizei a *automação de tarefas de coleta e tratamento de dados* utilizando *Python e Power Automate*; otimizando rotinas de dias em fluxos de trabalho de poucos minutos;
-- Desenvolvi extensões e integrações de ERP utilizando Progress ABL, controlando o acesso a informações corporativas e reduzindo ineficiências em processos manuais.
+- Escrevi testes automatizados cobrindo mais de 40 rotinas do ERP, reduzindo erros e diminuindo o tempo de deploy;
+- Automatizei fluxos de coleta de dados (*Python, Power Automate*), transformando rotinas de vários dias em fluxos de poucos minutos;
+- Desenvolvi diversas integrações de ERP em *Progress ABL* para múltiplos setores, eliminando uma estimativa de 50h/mês de trabalho manual.
+
+/* == Projects — comentado por enquanto, revisitar depois
+
+#project(
+  role: "TCC (em andamento)",
+  name: "Algoritmos de Online Learning para um Sistema de Recomendação de Filmes",
+  url: "",
+  dates: "2026",
+)
+
+- Aplicando algoritmos de online learning a um sistema de recomendação de filmes, atualizando as estimativas do modelo de forma incremental conforme novas avaliações chegam, em vez de retreinar do zero;
+
+// Repositório real — github.com/arend239/random_forest. Números extraídos do README (seminário de Estatística Não-Paramétrica).
+#project(
+  role: "Projeto Acadêmico",
+  name: "Classificação de Admissão em MBA — Árvores de Decisão e Random Forest",
+  url: "github.com/arend239/random_forest",
+  dates: "2026",
+)
+
+- Desenvolvi classificadores CART e Random Forest (*R*) para prever admissão em MBA a partir de 6.094 candidaturas, tratando o forte desbalanceamento de classes (14,8% de casos positivos) com ponderação por frequência inversa e amostragem bootstrap balanceada;
+- Avaliei os modelos além da acurácia — precisão, recall, F1 e AUC — alcançando *AUC de 0,863* com Random Forest contra 0,813 da árvore CART podada;
+- Entreguei um relatório reprodutível em R Markdown como seminário final da disciplina de Estatística Não-Paramétrica.
+
+*/
 
 == Atividades Extras
 
-- Apresentações analíticas em fóruns e eventos acadêmicos, traduzindo informações e achados complexos de forma visual para a comunidade externa;
-- Atuação voluntária através do projeto IFRS Contribui, prestando apoio logístico e direcionamento na tomada de decisão para micro e pequenos empreendedores.
+- Apresentações analíticas em fóruns e eventos acadêmicos, traduzindo achados complexos em visuais claros e acessíveis para públicos não técnicos;
+- Atuação voluntária no projeto IFRS Contribui, oferecendo apoio logístico e orientação baseada em dados para micro e pequenos empreendedores.
 
 == Skills
 
 - *Análise e Visualização*: Power BI, Excel Avançado, Tableau, estruturação e consolidação de KPIs;
-- *Linguagens e Automação*: Python (pandas, scikit-learn), Power Automate, R, SQL, Julia, Progress ABL;
-- *Ferramentas*: Git, Linux, Docker, governança de dados operacionais, integração de sistemas complexos e testes de qualidade;
+- *Dados e Automação*: Python (pandas, scikit-learn), Power Automate, R, SQL, Julia, Progress ABL;
+- *Ferramentas e Práticas*: Git, Linux, Docker, governança de dados operacionais, integração de sistemas e testes automatizados;
 - *Idiomas*: Inglês avançado, Espanhol intermediário.

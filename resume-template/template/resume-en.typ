@@ -34,7 +34,7 @@ Statistics student with hands-on experience in data consolidation, structuring, 
 )
 
 - *Focus areas*: Linear Algebra, Probability, Data Visualization, Machine Learning and Clustering.
-- *Undergraduate Thesis*: Applying bayesian learning algorithms to a recommendation system.
+- *Undergraduate Thesis*: Applying bayesian machine learning algorithms to a recommendation system.
 
 == Professional Experience
 
