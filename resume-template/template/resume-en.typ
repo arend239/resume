@@ -22,7 +22,7 @@
 
 == Summary
 
-Statistician with experience in data consolidation, structuring, and analysis. Proficient in visualization tools such as *Power BI* and *advanced Excel*, with strong hands-on experience automating data collection and transformation routines using *Python* and *Power Automate*. Practical experience implementing *automated tests* and building *ETL pipelines* to ensure data integrity, supporting the structuring of *operational KPIs* and direct support for strategic decision-making.
+Statistics student with hands-on experience in data consolidation, structuring, and analysis across ERP and BI environments. Curious and adaptable, with a track record of automating workflows using *Python* and *Power Automate*, and building *ETL pipelines* and *automated tests* to keep data reliable end to end. Comfortable moving between technical and business-facing work, and motivated to bring that versatility to cross-functional, AI-driven teams.
 
 == Education
 
@@ -34,6 +34,7 @@ Statistician with experience in data consolidation, structuring, and analysis. P
 )
 
 - *Focus areas*: Linear Algebra, Probability, Data Visualization, Machine Learning and Clustering.
+- *Undergraduate Thesis*: Applying bayesian learning algorithms to a recommendation system.
 
 == Professional Experience
 
@@ -41,12 +42,12 @@ Statistician with experience in data consolidation, structuring, and analysis. P
   title: "Systems Analyst",
   location: "Canoas, RS, Brazil",
   company: "Maxiforja Componentes Automotivos",
-  dates: dates-helper(start-date: "Apr 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Apr 2024", end-date: "Aug 2026"),
 )
 
-- Built data extraction, transformation and consolidation pipelines (*ETL*) with *Progress and Python* from multiple sources, serving as the foundation for *Power BI* dashboards used in corporate and operational KPI analysis;
-- Created automated routines to generate advanced reports directly in *Excel*, cutting analysis processing time by up to 50%;
-- Implemented logical validation and input-sanitization routines in the ERP, ensuring consistency and high integrity of the managerial information reported to leadership;
+- Built *ETL* pipelines (*Progress, Python*) consolidating data from multiple sources for corporate and operational KPI analysis;
+- Built ERP input-validation routines, cutting data-entry errors by ~30% in reports used by leadership;
+- Maintained and extended Progress ABL customizations in the ERP, combining hands-on development with the analytics work above;
 
 #work(
   title: "Progress Developer | TOTVS Datasul ERP",
@@ -55,18 +56,43 @@ Statistician with experience in data consolidation, structuring, and analysis. P
   dates: dates-helper(start-date: "Jan 2022", end-date: "Nov 2023"),
 )
 
-- Implemented automated tests for system routines, focusing on identifying quality bottlenecks, reducing errors and shortening deployment time;
-- Performed *automation of data collection and processing tasks* using *Python and Power Automate*, turning multi-day routines into workflows of just a few minutes;
-- Developed ERP extensions and integrations using Progress ABL, controlling access to corporate information and reducing inefficiencies in manual processes.
+- Wrote automated tests covering 40+ ERP routines, reducing errors and shortening deployment time;
+- Automated data-collection workflows (*Python, Power Automate*), turning multi-day routines into workflows of just a few minutes;
+- Built numerous ERP integrations in *Progress ABL* across multiple departments, removing an estimated 50h/month of manual work.
+
+/* == Projects — commented out for now, revisit later
+
+#project(
+  role: "Undergraduate Thesis (TCC, in progress)",
+  name: "Online Learning Algorithms for a Movie Recommendation System",
+  url: "",
+  dates: "2026",
+)
+
+- Applying online learning algorithms to a movie recommendation system, updating model estimates incrementally as new ratings arrive rather than retraining from scratch;
+
+// Real repo — github.com/arend239/random_forest. Stats pulled from its README (Non-Parametric Statistics seminar).
+#project(
+  role: "Academic Project",
+  name: "MBA Admission Classification — Decision Trees & Random Forest",
+  url: "github.com/arend239/random_forest",
+  dates: "2026",
+)
+
+- Built CART and Random Forest classifiers (*R*) predicting MBA admission from 6,094 applications, handling severe class imbalance (14.8% positive class) via inverse-frequency weighting and balanced bootstrap sampling;
+- Evaluated models beyond accuracy — precision, recall, F1, and AUC — reaching *0.863 AUC* with Random Forest vs. 0.813 for pruned CART;
+- Delivered a reproducible R Markdown report as the final seminar project for Non-Parametric Statistics.
+
+*/
 
 == Additional Activities
 
-- Delivered analytical presentations at academic forums and events, translating complex information and findings visually for external audiences;
-- Volunteered with the IFRS Contribui project, providing logistical support and decision-making guidance for micro and small business owners.
+- Delivered analytical presentations at academic forums and events, translating complex findings into clear, accessible visuals for non-technical audiences;
+- Volunteered with the IFRS Contribui project, providing logistics support and data-informed guidance to micro and small business owners.
 
 == Skills
 
 - *Analysis & Visualization*: Power BI, Advanced Excel, Tableau, KPI structuring and consolidation;
-- *Languages & Automation*: Python (pandas, scikit-learn), Power Automate, R, SQL, Julia, Progress ABL;
-- *Tools*: Git, Linux, Docker, operational data governance, complex systems integration and quality testing;
+- *Data & Automation*: Python (pandas, scikit-learn), Power Automate, R, SQL, Julia, Progress ABL;
+- *Tools & Practices*: Git, Linux, Docker, operational data governance, systems integration, automated testing;
 - *Languages*: Advanced English, Intermediate Spanish.

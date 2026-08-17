@@ -22,7 +22,7 @@
 
 == Resumo
 
-Estatístico com experiência em consolidação, estruturação e análise de dados. Domínio de ferramentas de visualização como *Power BI* e *Excel avançado*, além de forte vivência na automação de rotinas de coleta e transformação de dados utilizando *Python* e *Power Automate*. Experiência prática na implementação de *testes automatizados* e construção de *pipelines (ETL)* para garantir a integridade da informação, auxiliando na estruturação de *KPIs* operacionais e no suporte direto à tomada de decisão estratégica.
+Estudante de Estatística com experiência prática em consolidação, estruturação e análise de dados em ambientes de ERP e BI. Curioso e adaptável, com histórico de automação de fluxos de trabalho utilizando *Python* e *Power Automate*, além da construção de *pipelines de ETL* e *testes automatizados* para manter a confiabilidade dos dados de ponta a ponta. Transito com facilidade entre trabalho técnico e voltado ao negócio, e busco trazer essa versatilidade para times multidisciplinares orientados por IA.
 
 == Educação
 
