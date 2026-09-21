@@ -1,0 +1,12 @@
+{
+  // Raiz do projeto para resolver imports como "../layout/resume.typ"
+  "tinymist.rootPath": ".",
+  // Gera o PDF ao lado do .typ sempre que o arquivo for salvo
+  "tinymist.exportPdf": "onSave",
+  "tinymist.outputPath": "$dir/$name",
+  "tinymist.formatterMode": "typstyle",
+  "[typst]": {
+    "editor.defaultFormatter": "myriad-dreamin.tinymist",
+    "editor.wordWrap": "on"
+  }
+}

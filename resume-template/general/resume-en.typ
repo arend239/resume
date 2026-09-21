@@ -1,4 +1,4 @@
-#import "../src/resume.typ": *
+#import "../layout/resume.typ": *
 
 #let name = "João Vitor da S. Arend"
 #let location = "Canoas, RS, Brazil"
